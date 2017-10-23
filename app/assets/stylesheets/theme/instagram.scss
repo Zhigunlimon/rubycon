@@ -1,0 +1,29 @@
+.instagram_row {
+  position: relative;
+  height: 215px;
+  width: 100%;
+  max-width: 210px*7;
+  margin: 0 auto;
+  overflow: hidden;
+  .instagram_photo {
+    float: left;
+    width: 13.5%;
+    height: 195px;
+    margin: 10px 0 10px 10px;
+    background-color: #d8d8d8;
+    background-size: cover;
+    &._0 {
+      margin-left: 0;
+    }
+  }
+  .follow_button_container {
+    position: absolute;
+    top: 85px;
+    margin: 0 auto;
+    width: 100%;
+
+    .btn {
+      font-size: 24px;
+    }
+  }
+}
