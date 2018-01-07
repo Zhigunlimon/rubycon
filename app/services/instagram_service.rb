@@ -1,4 +1,6 @@
 class InstagramService
+  require 'net/http'
+  
   def initialize(*args)
     @access_token = ENV['INSTAGRAM_ACCESS_TOKEN']
   end
