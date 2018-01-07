@@ -15,21 +15,15 @@ gem 'uglifier', '>= 1.3.0'
 gem 'figaro'
 
 gem 'coffee-rails', '~> 4.2'
-gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'slim-rails', '~> 3.1', '>= 3.1.1'
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
 gem 'font-awesome-rails'
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 3.0'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'gmaps4rails'
 
 group :development, :test do
+  gem 'rubocop'
   gem 'webmock'
   gem 'capybara', '~> 2.13'
   gem 'rspec-rails', '~> 3.6'

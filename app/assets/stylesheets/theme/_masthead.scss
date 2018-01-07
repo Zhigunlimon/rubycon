@@ -1,11 +1,21 @@
 // Styling for the masthead
+header {
+  .carusel-image {
+    width: 100% !important;
+    height: 40rem !important;
+  }
+}
 header.masthead {
+  .carusel-image {
+    width: 100% !important;
+    height: 40rem !important;
+  }
   text-align: center;
   color: white;
-  background-image: url('https://cdn.volkswagen.ua/media/Theme_Teaser_Breaker_Image_Component/8227-91977-image/dh-3840-927559/8148593a/1488899507/db2017au00609-large-m.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+  // background-image: url('https://cdn.volkswagen.ua/media/Theme_Teaser_Breaker_Image_Component/8227-91977-image/dh-3840-927559/8148593a/1488899507/db2017au00609-large-m.jpg');
+  // background-repeat: no-repeat;
+  // background-attachment: scroll;
+  // background-position: center center;
   @include background-cover;
   .intro-text {
     padding-top: 150px;

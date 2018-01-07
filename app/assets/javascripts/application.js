@@ -11,7 +11,6 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require turbolinks
 //= require jquery
 //= require jquery_ujs
 //= require popper
@@ -20,4 +19,6 @@
 //= require bootstrap.min.js
 //= require agency.js
 //= require agency.min.js
+//= require underscore
+//= require gmaps/google
 //= require_tree .

@@ -48,15 +48,19 @@
     border: none;
     background-color: transparent;
     .navbar-brand {
-      font-size: 1.75em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s;
+      background-image: image-url('logo_black.png');
+      background-repeat: no-repeat;
+      background-size: 9rem 7rem;
+      padding: 0;
+      width: 9rem;
+      height: 7rem;
     }
     .navbar-nav {
       .nav-item {
         .nav-link {
           padding: 1.1em 1em !important;
+          color: #fed136;
+          -webkit-text-stroke: 0.2px black;
         }
       }
     }
@@ -65,7 +69,10 @@
       padding-bottom: 0;
       background-color: $gray-darker;
       .navbar-brand {
-        font-size: 1.25em;
+        background-image: image-url('logo_blue.png');
+        background-size: 7rem 5rem;
+        width: 7rem;
+        height: 5.5rem;
         padding: 12px 0;
       }
     }
