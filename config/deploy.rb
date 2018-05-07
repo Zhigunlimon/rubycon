@@ -9,7 +9,7 @@ require 'mina/rvm'
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :application_name, 'rubycon'
-set :domain, 'rubycon@159.89.190.14'
+set :domain, '159.89.190.14'
 set :user, fetch(:application_name)
 set :deploy_to, "/home/#{fetch(:user)}/app"
 set :repository, 'git@github.com:Zhigunlimon/rubycon.git'
