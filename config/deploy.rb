@@ -16,6 +16,7 @@ set :repository, 'git@github.com:Zhigunlimon/rubycon.git'
 set :branch, 'master'
 set :rvm_use_path, '/etc/profile.d/rvm.sh'
 set :forward_agent, true
+set :term_mode, :system
 
 # Optional settings:
 #   set :user, 'foobar'          # Username in the server to SSH to.
