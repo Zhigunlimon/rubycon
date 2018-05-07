@@ -32,7 +32,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'rspec-rails', '~> 3.6'
   gem 'faker', '~> 1.8', '>= 1.8.4'
-  gem 'factory_girl_rails', '~> 4.8'
+  gem 'factory_bot_rails'
   gem 'shoulda-matchers', '~> 3.1', '>= 3.1.2'
   gem 'database_cleaner', '~> 1.5', '>= 1.5.1'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
