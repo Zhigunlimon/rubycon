@@ -24,6 +24,7 @@ gem 'gmaps4rails'
 
 group :production do
   gem 'mina', '1.2.2'
+  gem 'unicorn'
 end
 
 group :development, :test do
