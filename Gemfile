@@ -22,6 +22,10 @@ gem 'jquery-rails'
 gem 'font-awesome-rails'
 gem 'gmaps4rails'
 
+group :production do
+  gem 'mina', '1.2.2'
+end
+
 group :development, :test do
   gem 'rubocop'
   gem 'webmock'

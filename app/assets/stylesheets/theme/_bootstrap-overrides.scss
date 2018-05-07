@@ -19,3 +19,13 @@
   @include button-variant(white, $theme-primary, $theme-primary);
   @include heading-font;
 }
+
+.yellow {
+  color: #fed136;
+}
+
+.timeline-image {
+  .fa-stack {
+    height: auto;
+  }
+}

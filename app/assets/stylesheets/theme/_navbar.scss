@@ -12,6 +12,11 @@
     @include heading-font;
   }
   .navbar-brand {
+    background-image: image-url('logo_blue.png');
+    background-size: 7rem 5rem;
+    width: 7rem;
+    height: 5.5rem;
+    padding: 12px 0;
     color: $theme-primary;
     @include script-font;
     &.active,
