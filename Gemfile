@@ -21,6 +21,8 @@ gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
 gem 'font-awesome-rails'
 gem 'gmaps4rails'
+gem 'activeadmin'
+gem "devise"
 
 group :production do
   gem 'mina', '1.2.2'
