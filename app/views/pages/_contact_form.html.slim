@@ -3,8 +3,8 @@ section#contact
   .container
     .row
       .col-lg-12.text-center
-        h2.section-heading Contact Us
-        h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        h2.section-heading Обратная связь
+        h3.section-subheading.text-muted Заполните форму или свяжитесь по указанным контактам.
     .row
       .col-lg-12
         form#contactForm name="sentMessage" novalidate=""
@@ -26,13 +26,26 @@ section#contact
               #success
                 button#sendMessageButton.btn.btn-xl type="submit"  Send Message
             .col-md-6
+              #legend
+                address
+                  strong Rubycon Logistic.
+                  br/
+                  | ул. Черноморского Казачества 115
+                  br/
+                  | Одесса
+                  br/
+                  abbr title="Телефон"
+                  | +38(063)333 32 24
+                address
+                  a href="mailto:contact.usacar@rubycon-logistic.com" contact.usacar@rubycon-logistic.com
               /google-maps
               #map
 
 
+
 javascript:
   function initMap() {
-    var uluru = {lat: 46.472286, lng: 30.695950};
+    var uluru = {lat: 46.5142733, lng: 30.7219894};
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 15,
       center: uluru
@@ -41,11 +54,12 @@ javascript:
       position: uluru,
       map: map,
       label: {
-        text: 'Одесса, ул.водопроводная 4а',
         class: "labels", // the CSS class for the label
         color: "#eb3a44",
         fontSize: "16px",
         fontWeight: "bold"
       }
     });
+    var legend = document.getElementById('legend');
+    map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(legend);
   }
