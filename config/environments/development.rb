@@ -33,7 +33,7 @@ Rails.application.configure do
     port:                 587,
     domain:               'rubycon-logistic.com',
     user_name:            'contact.usacar@rubycon-logistic.com',
-    password:             '#contact#rubycon',
+    password:             '#contact#rubycon!',
     authentication:       :plain,
     enable_starttls_auto: true
   }

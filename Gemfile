@@ -10,6 +10,7 @@ end
 gem 'rails', '~> 5.1.3'
 gem 'pg'
 gem 'puma', '~> 3.7'
+gem 'jquery-rails'
 gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'figaro'
@@ -18,11 +19,11 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 gem 'slim-rails', '~> 3.1', '>= 3.1.1'
 gem 'bootstrap', '~> 4.0.0.beta'
-gem 'jquery-rails'
 gem 'font-awesome-rails'
 gem 'gmaps4rails'
 gem 'activeadmin'
 gem "devise"
+gem 'timepiece'
 
 group :production do
   gem 'mina', '1.2.2'
