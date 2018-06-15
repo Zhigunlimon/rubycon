@@ -36,8 +36,8 @@ Rails.application.configure do
     address:              'smtp.gmail.com',
     port:                 587,
     domain:               'rubycon-logistic.com',
-    user_name:            'contact.usacar@rubycon-logistic.com',
-    password:             '#contact#rubycon',
+    user_name:            ENV['contact_email'],
+    password:             ENV['contact_email_password'],
     authentication:       :plain,
     enable_starttls_auto: true
   }
