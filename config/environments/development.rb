@@ -32,9 +32,9 @@ Rails.application.configure do
     address:              'smtp.gmail.com',
     port:                 587,
     domain:               'rubycon-logistic.com',
-    user_name:            'contact.usacar@rubycon-logistic.com',
-    password:             '#contact#rubycon!',
-    authentication:       :plain,
+    user_name:            'test',
+    password:             'password',
+    authentication:       :login,
     enable_starttls_auto: true
   }
   # Don't care if the mailer can't send.
