@@ -6,6 +6,6 @@ class ContactMailer < ApplicationMailer
     @email = data['email']
     @message = data['message']
 
-    mail(to: 'contact.usacar@rubycon-logistic.com', subject: 'Запрос на контакт!')
+    mail(to: ENV['contact_email'], subject: 'Запрос на контакт!')
   end
 end
