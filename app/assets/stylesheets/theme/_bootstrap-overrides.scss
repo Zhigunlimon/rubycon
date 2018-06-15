@@ -29,3 +29,12 @@
     height: auto;
   }
 }
+
+@media(max-width:768px) {
+  .timeline-image .fa-stack.fa-4x {
+    height: 100%;
+    width: 100%;
+    font-size: 2em;
+
+  }
+}
